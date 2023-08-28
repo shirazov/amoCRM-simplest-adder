@@ -1,0 +1,29 @@
+{
+  "widget": {
+    "name": "widget.name",
+    "description": "widget.description",
+    "short_description": "widget.short_description",
+    "version": "1.0.43",
+    "interface_version": 2,
+    "installation": true,
+    "locale": ["ru"]
+  },
+  "locations": ["lcard-0", "card_sdk","lcard-1","settings"],
+  "settings": {
+    "s1":{ 
+      "name": "settings.s1",
+      "type": "text",
+      "required": true
+    },
+    "s2":{ 
+      "name": "settings.s2",
+      "type": "text",
+      "required": true
+    },
+    "summa":{ 
+      "name": "settings.summa",
+      "type": "text",
+      "required": true
+    }
+  }
+}
