@@ -1,20 +1,72 @@
 # amoCRM-simplest-adder
 
-This is a small, as easy to understand as possible => private integration (JS widget) which sums up the values of two fields, s1 and s2 and writes the result in the summa field. Working even without clicking the save button in the Transaction card
+This repository contains a minimalistic and easy-to-understand private integration for amoCRM. It’s a JavaScript widget designed to sum the values of two fields, `s1` and `s2`, and automatically write the result to the `summa` field. Remarkably, this widget operates even without the need to click the "Save" button in the Deal card.
 
-___
+---
 
-Это маленькая, максимально лёгкая в понимании => приватная интеграция (JS-виджет) который суммирует значения двух полей, s1 и s2 и записывает результат в поле summa. Работая даже без нажатия кнопки сохранить в карточке Сделки  
+### Features
+- Simple and lightweight implementation.
+- Automatically calculates and updates the `summa` field in real time.
+- No need for manual saving after updates.
 
-### __Как билдить?__
+---
 
-Просто закинуть эти файлы и папки _manifest.json_ _script.js_ _images_ _i18_ в архив и назвать его __widget.zip__  
-Всё, этот архив залить в систему, во вкладке amoMarket
+### How to Build?
+1. Collect the following files and folders:
+   - `manifest.json`
+   - `script.js`
+   - `images`
+   - `i18`
+2. Compress them into a single archive named **`widget.zip`**.
+3. Upload this archive to the amoCRM system via the **amoMarket** tab.
 
-### __Как пользоваться?__
+---
 
-![Установка](/просто%20для%20понимания/img1.png)
-Перед или после устарновки вписать idшники полей в эти инпуты и нажмать кнопку сохранить
+### How to Use?
+1. During or after installation, input the IDs of the fields (`s1`, `s2`, and `summa`) into the designated inputs in the widget settings.
+2. Click the "Save" button to confirm.
 
-![Пример](/просто%20для%20понимания/image.png)
-Вот работа данных полей
+#### Example:
+**Installation Screen:**
+![Installation](/path/to/your/image/img1.png)
+
+**Field Calculation in Action:**
+![Example](/path/to/your/image/image.png)
+
+---
+
+# amoCRM-simplest-adder (Russian)
+
+Этот репозиторий содержит минималистичную и простую для понимания приватную интеграцию для amoCRM. Это JavaScript-виджет, который суммирует значения двух полей: `s1` и `s2`, и автоматически записывает результат в поле `summa`. Виджет работает даже без необходимости нажимать кнопку "Сохранить" в карточке сделки.
+
+---
+
+### Особенности
+- Простая и легковесная реализация.
+- Автоматически вычисляет и обновляет значение в поле `summa` в реальном времени.
+- Не требует ручного сохранения после обновлений.
+
+---
+
+### Как собрать?
+1. Соберите следующие файлы и папки:
+   - `manifest.json`
+   - `script.js`
+   - `images`
+   - `i18`
+2. Сожмите их в один архив с именем **`widget.zip`**.
+3. Загрузите этот архив в систему amoCRM через вкладку **amoMarket**.
+
+---
+
+### Как использовать?
+1. Во время или после установки введите ID полей (`s1`, `s2` и `summa`) в соответствующие поля настроек виджета.
+2. Нажмите кнопку "Сохранить" для подтверждения.
+
+#### Пример:
+**Экран установки:**
+![Установка](/path/to/your/image/img1.png)
+
+**Работа полей в действии:**
+![Пример](/path/to/your/image/image.png)
+
