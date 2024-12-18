@@ -28,10 +28,10 @@ This repository contains a minimalistic and easy-to-understand private integrati
 
 #### Example:
 **Installation Screen:**
-![Installation](/path/to/your/image/img1.png)
+![Установка](/просто%20для%20понимания/img1.png)
 
 **Field Calculation in Action:**
-![Example](/path/to/your/image/image.png)
+![Пример](/просто%20для%20понимания/image.png)
 
 ---
 
@@ -65,8 +65,8 @@ This repository contains a minimalistic and easy-to-understand private integrati
 
 #### Пример:
 **Экран установки:**
-![Установка](/path/to/your/image/img1.png)
+![Установка](/просто%20для%20понимания/img1.png)
 
 **Работа полей в действии:**
-![Пример](/path/to/your/image/image.png)
+![Пример](/просто%20для%20понимания/image.png)
 
